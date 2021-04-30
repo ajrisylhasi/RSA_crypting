@@ -26,7 +26,7 @@ def fast_modular_exponentiation(a, b, m)
     
 end
 
-def chinese_remainer_theorem(c, a, b, d)
+def chinese_remainer_theorem(c,pp, q, d)
     dp = d % (p-1)
     dq = d % (q-1)
     mp = fast_modular_exponentiation(c, dp, p)
